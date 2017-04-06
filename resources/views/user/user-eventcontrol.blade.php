@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('head')
-	<link rel="stylesheet" href="{{{asset('css/user-eventcontrol.css')}}}" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="{{{secure_asset('css/user-eventcontrol.css')}}}" media="screen" title="no title" charset="utf-8">
 @endsection
 
 @section('content')

@@ -1,8 +1,8 @@
 @extends('layout.app')
 
 @section('head')
-  <link rel="stylesheet" href="{{{asset('css/user-setting/user-setting-common.css')}}}" media="screen" title="no title" charset="utf-8">  
-  <link rel="stylesheet" href="{{{asset('css/user-setting/user-setting-notice.css')}}}" media="screen" title="no title" charset="utf-8">  
+  <link rel="stylesheet" href="{{{secure_asset('css/user-setting/user-setting-common.css')}}}" media="screen" title="no title" charset="utf-8">  
+  <link rel="stylesheet" href="{{{secure_asset('css/user-setting/user-setting-notice.css')}}}" media="screen" title="no title" charset="utf-8">  
 @endsection
 
 @section('content')
